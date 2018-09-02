@@ -4,9 +4,9 @@
 	 Toggle the bit
 	 Print bits
 
-### Arrays(https://github.com/Sandip75/Programming-in-Java/tree/master/coreJava/arrays)
+### [Arrays](https://github.com/Sandip75/Programming-in-Java/tree/master/coreJava/arrays)
 	 Maximum in an array
-	 Linear Search(https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/LinearSearch.java)
+	 [Linear Search](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/LinearSearch.java)
 	 Binary Search
 	 Bubble Sort
 	 Selection Sort
