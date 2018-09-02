@@ -1,4 +1,5 @@
 Arrays
+	 Maximum in an array
 	 Linear Search
 	 Binary Search
 	 Bubble Sort
