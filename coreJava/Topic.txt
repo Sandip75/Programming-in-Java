@@ -1,3 +1,9 @@
+Bit Manipulation
+	 Turn the bit on
+	 Turn the bit off
+	 Toggle the bit
+	 Print bits
+
 Arrays
 	 Maximum in an array
 	 Linear Search
