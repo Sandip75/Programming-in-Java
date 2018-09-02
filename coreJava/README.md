@@ -1,8 +1,8 @@
 ### Bit Manipulation
-	 Turn the bit on
-	 Turn the bit off
-	 Toggle the bit
-	 Print bits
+   [Turn the bit on]()<br />
+   [Turn the bit off]()<br />
+   [Toggle the bit]()<br />
+   [Print bits]()<br />
 
 ### [Arrays](https://github.com/Sandip75/Programming-in-Java/tree/master/coreJava/arrays)
    [Maximum in an array]()<br />
