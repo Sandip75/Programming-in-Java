@@ -5,11 +5,11 @@
    [Print bits]()<br />
 
 ### [Arrays](https://github.com/Sandip75/Programming-in-Java/tree/master/coreJava/arrays)
-   [Maximum in an array]()<br />
+   [Maximum in an array](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/MaximumInArray.java)<br />
    [Linear Search](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/LinearSearch.java)<br />
-   [Binary Search]()<br />
-   [Bubble Sort]()<br />
-   [Selection Sort]()<br />
+   [Binary Search](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/BinarySearch.java)<br />
+   [Bubble Sort](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/BubbleSort.java)<br />
+   [Selection Sort](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/SelectionSort.java)<br />
    [Insertion Sort]()<br />
    [Reverse array]()<br />
    [Inverse of an array]()<br />
