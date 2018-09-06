@@ -10,12 +10,12 @@
    [Binary Search](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/BinarySearch.java)<br />
    [Bubble Sort](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/BubbleSort.java)<br />
    [Selection Sort](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/SelectionSort.java)<br />
-   [Insertion Sort]()<br />
-   [Reverse array]()<br />
-   [Inverse of an array]()<br />
-   [Is Array mirror-inverse]()<br />
-   [Rotate an array]()<br />
-   [Kadane's algorithm]()<br />
+   [Insertion Sort](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/InsertionSort.java)<br />
+   [Reverse array](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/ReverseArray.java)<br />
+   [Inverse of an array](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/InverseArray.java)<br />
+   [Is Array mirror-inverse](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/IsArrayMirrorInverse.java)<br />
+   [Rotate an array](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/RotateAnArray.java)<br />
+   [Kadane's algorithm](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/KadanesAlgorithm.java)<br />
    [Matrix Multiplication]()<br />
    [Wave Display]()<br />
    [Spiral Display]()<br />
