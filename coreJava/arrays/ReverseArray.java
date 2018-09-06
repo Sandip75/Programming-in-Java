@@ -11,11 +11,11 @@ public class ReverseArray {
 	}
 
 	public static void reverseArray(int[] arr) {
-		int left =0 ;
-		int right = arr.length -1 ;
-		
-		while(left <= right){
-			swap(arr, left , right);
+		int left = 0;
+		int right = arr.length - 1;
+
+		while (left <= right) {
+			swap(arr, left, right);
 			left++;
 			right--;
 		}
@@ -24,7 +24,7 @@ public class ReverseArray {
 	private static void swap(int[] arr, int i, int j) {
 		int temp = arr[i];
 		arr[i] = arr[j];
-		arr[j] = temp ;
+		arr[j] = temp;
 	}
 
 }
