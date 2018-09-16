@@ -29,7 +29,6 @@ public class WaveArray {
 			}
 			ans.add(A.get(i));
 		}
-
 		return ans;
 	}
 
