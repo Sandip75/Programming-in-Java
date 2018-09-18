@@ -6,7 +6,7 @@ public class Parenthesis {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> ans = new ArrayList<Integer>();
-		String s = "3+6*2-1";
+		String s = "311+63-1";
 		ans = Allpossible(s);
 		for (int val : ans) {
 			System.out.print(val + "   ");
@@ -14,29 +14,29 @@ public class Parenthesis {
 	}
 
 	public static ArrayList<Integer> Allpossible(String input) {
-		ArrayList<Integer> res = new ArrayList<Integer>();
+		ArrayList<Integer> ans = new ArrayList<Integer>();
 		for (int i = 0; i < input.length(); i++) {
-			char c = input.charAt(i);
-			if (c == '-' || c == '+' || c == '*') {
+			char current = input.charAt(i);
+			if (current == '-' || current == '+' || current == '*') {
 				String left = input.substring(0, i);
 				String right = input.substring(i + 1);
 				ArrayList<Integer> leftList = Allpossible(left);
 				ArrayList<Integer> rightList = Allpossible(right);
-				for (int x : leftList) {
-					for (int y : rightList) {
-						if (c == '-') {
-							res.add(x - y);
-						} else if (c == '+') {
-							res.add(x + y);
-						} else if (c == '*') {
-							res.add(x * y);
+				for (int l : leftList) {
+					for (int r : rightList) {
+						if (current == '-') {
+							ans.add(l - r);
+						} else if (current == '+') {
+							ans.add(l + r);
+						} else if (current == '*') {
+							ans.add(l * r);
 						}
 					}
 				}
 			}
 		}
-		if (res.size() == 0)
-			res.add(Integer.valueOf(input));
-		return res;
+		if (ans.size() == 0)
+			ans.add(Integer.valueOf(input));
+		return ans;
 	}
 }
