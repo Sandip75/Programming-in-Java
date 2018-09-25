@@ -1,4 +1,4 @@
-package problemSolution.math;
+package problemSolution.interviewBit.level2.math;
 
 import java.util.*;
 
@@ -36,5 +36,4 @@ public class PrimeSum {
 		}
 		return true;
 	}
-
 }
