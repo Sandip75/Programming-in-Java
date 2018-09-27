@@ -33,5 +33,4 @@ public class FindFirstIndex {
 		int ans = findFirstIndexBetter(arr, data, vidx + 1);
 		return ans;
 	}
-
 }
