@@ -13,7 +13,7 @@ public class TowerOfHanoi {
 			return;
 		}
 		toh(src, help, des, n - 1);
-		System.out.println(src + " to " + des + " --->>> " + n);
+		System.out.println(src + " to " + des + " --->>> " + n); 
 		toh(help, des, src, n - 1);
 	}
 
