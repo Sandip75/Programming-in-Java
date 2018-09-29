@@ -16,9 +16,8 @@ public class ModifyString {
 			char chM = input.charAt(i - 1);
 			ansP.append(chM);
 			ansP.append(ch - chM);
-		}
+		}	
 		ansP.append(input.charAt(input.length()-1));
 		return ansP.toString();
 	}
-
 }

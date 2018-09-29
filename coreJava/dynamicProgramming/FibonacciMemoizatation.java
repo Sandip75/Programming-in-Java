@@ -6,11 +6,11 @@ public class FibonacciMemoizatation {
 
 	}
 
-	public static int FibonacciMemoizatation(int n, int[] m) {
+	public static int fibonacciMemoizatation(int n, int[] m) {
 		return 0;
 	}
 
-	public static int FibonacciTabulation(int n) {
+	public static int fibonacciTabulation(int n) {
 		return 0;
 	}
 }
