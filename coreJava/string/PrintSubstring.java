@@ -3,8 +3,12 @@ package coreJava.string;
 public class PrintSubstring {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		String input = "abcd";
+		printSubstring(input);
+	}
+	
+	public static void printSubstring(String input){
+		
 	}
 
 }
