@@ -40,6 +40,5 @@ public class Permutations {
 				choicebm = choicebm & (~(1 << i));
 			}
 		}
-
 	}
 }
