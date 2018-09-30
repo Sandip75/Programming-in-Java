@@ -12,7 +12,6 @@ public class TurnTheBitON {
 	}
 
 	public static int turnTheBitON(int n, int k) {
-
 		int mask = (1 << k);
 		System.out.println(Integer.toBinaryString(mask));
 		n = n | mask;
