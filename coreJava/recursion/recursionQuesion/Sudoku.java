@@ -1,4 +1,4 @@
-package coreJava.recursion.pAndC;
+package coreJava.recursion.recursionQuesion;
 
 public class Sudoku {
 
@@ -53,7 +53,7 @@ public class Sudoku {
 		}
 	}
 
-	public static void makeChoice(int[][] arr, int cellNo, int[] rownos, int[] colnos, int[] subM, int choice) {
+	private static void makeChoice(int[][] arr, int cellNo, int[] rownos, int[] colnos, int[] subM, int choice) {
 
 		int rno = (cellNo - 1) / arr.length;
 		int cno = (cellNo - 1) % arr.length;
@@ -64,7 +64,7 @@ public class Sudoku {
 		subM[(rno / 3) * 3 + (cno / 3)] ^= (1 << choice);
 	}
 
-	public static void unMakeChoice(int[][] arr, int cellNo, int[] rownos, int[] colnos, int[] subM, int choice) {
+	private static void unMakeChoice(int[][] arr, int cellNo, int[] rownos, int[] colnos, int[] subM, int choice) {
 		int rno = (cellNo - 1) / arr.length;
 		int cno = (cellNo - 1) % arr.length;
 
