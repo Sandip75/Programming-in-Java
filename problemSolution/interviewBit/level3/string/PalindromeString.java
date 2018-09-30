@@ -18,12 +18,12 @@ public class PalindromeString {
 					&& ((r >= 'a' && 'z' >= r) || (r >= 'A' && 'Z' >= r))) {
 
 				if (l != r) {
-					if((l >= 'a' && 'z' >= l)){
+					if ((l >= 'a' && 'z' >= l)) {
 						l = (char) (l + 'A' - 'a');
-					}else{
+					} else {
 						l = (char) (l + 'a' - 'A');
 					}
-					
+
 					if (l != r) {
 						return 0;
 					}
@@ -41,5 +41,4 @@ public class PalindromeString {
 		}
 		return 1;
 	}
-
 }
