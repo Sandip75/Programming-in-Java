@@ -30,7 +30,7 @@ public class CrossWord {
 		}
 
 		for (int r = 0; r < input.length; r++) {
-			for (int c = 0; c < input.length; c++) {
+			for (int c = 0; c < input[0].length; c++) {
 				if (input[r][c] == '-' || input[r][c] == words[widx].charAt(0)) {
 					if (canPlaceWordHorizontally(input, words[widx], r, c) == true) {
 						boolean[] reset = placeTheWordHorizontally(input, words[widx], r, c);
@@ -42,7 +42,6 @@ public class CrossWord {
 						crossWord(input, words, widx + 1);
 						unPlaceTheWordVertically(input, reset, r, c);
 					}
-
 				}
 			}
 		}
@@ -54,7 +53,7 @@ public class CrossWord {
 		}
 
 		for (int i = 0; i < word.length(); i++) {
-			if (input[r][c + i] != '-' || input[r][c + i] != word.charAt(i)) {
+			if (input[r][c + i] != '-' && input[r][c + i] != word.charAt(i)) {
 				return false;
 			}
 		}
@@ -67,20 +66,11 @@ public class CrossWord {
 		}
 
 		for (int i = 0; i < word.length(); i++) {
-			if (input[r + i][c] != '-' || input[r + i][c] != word.charAt(i)) {
+			if (input[r + i][c] != '-' && input[r + i][c] != word.charAt(i)) {
 				return false;
 			}
 		}
 		return true;
-	}
-
-	public static boolean[] placeTheWordVertically(char[][] input, String word, int r, int c) {
-		boolean[] reset = new boolean[word.length()];
-		for (int i = 0; i < word.length(); i++) {
-			reset[i] = (input[r + i][c] != word.charAt(i));
-			input[r + i][c] = word.charAt(i);
-		}
-		return reset;
 	}
 
 	public static boolean[] placeTheWordHorizontally(char[][] input, String word, int r, int c) {
@@ -92,13 +82,13 @@ public class CrossWord {
 		return reset;
 	}
 
-	public static void unPlaceTheWordVertically(char[][] input, boolean[] reset, int r, int c) {
-		for (int i = 0; i < reset.length; i++) {
-			if (reset[i]) {
-				input[r + i][c] = '-';
-			}
+	public static boolean[] placeTheWordVertically(char[][] input, String word, int r, int c) {
+		boolean[] reset = new boolean[word.length()];
+		for (int i = 0; i < word.length(); i++) {
+			reset[i] = (input[r + i][c] != word.charAt(i));
+			input[r + i][c] = word.charAt(i);
 		}
-
+		return reset;
 	}
 
 	public static void unPlaceTheWordHorizontally(char[][] input, boolean[] reset, int r, int c) {
@@ -109,4 +99,11 @@ public class CrossWord {
 		}
 	}
 
+	public static void unPlaceTheWordVertically(char[][] input, boolean[] reset, int r, int c) {
+		for (int i = 0; i < reset.length; i++) {
+			if (reset[i]) {
+				input[r + i][c] = '-';
+			}
+		}
+	}
 }

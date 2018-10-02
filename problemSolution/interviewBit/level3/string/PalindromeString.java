@@ -3,7 +3,7 @@ package problemSolution.interviewBit.level3.string;
 public class PalindromeString {
 
 	public static void main(String[] args) {
-		String input = "A man, a plan, a canal: Panama";
+		String input = "1a2";
 		int ans = isPalindrome(input);
 		System.out.println(ans);
 	}
@@ -34,6 +34,8 @@ public class PalindromeString {
 				right--;
 			} else if ((r >= 'a' && 'z' >= r) || (r >= 'A' && 'Z' >= r)) {
 				left++;
+			} else if ((r >= 0 && 9 <= r) || (l >= 0 && 9 <= l)) {
+				return 0;
 			} else {
 				left++;
 				right--;
