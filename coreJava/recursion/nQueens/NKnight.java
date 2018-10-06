@@ -33,10 +33,8 @@ public class NKnight {
 		int[][] check = { { 1, -2 }, { 2, -1 }, { 2, 1 }, { 1, 2 }, { -1, 2 }, { -2, 1 }, { -1, -2 }, { -2, -1 } };
 
 		for (int ch = 0; ch < check.length; ch++) {
-
 			int rc = row + check[ch][0];
 			int cc = col + check[ch][1];
-
 			if (rc >= 0 && cc >= 0 && rc < board.length && cc < board[0].length) {
 				if (board[rc][cc] == true) {
 					return false;
