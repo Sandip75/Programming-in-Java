@@ -3,7 +3,7 @@ package coreJava.recursion.nQueens;
 public class NKnight {
 
 	public static void main(String[] args) {
-		boolean[][] board = new boolean[3][3];
+		boolean[][] board = new boolean[4][4];
 		nKnight(board, 1, 1, "");
 	}
 
@@ -15,11 +15,9 @@ public class NKnight {
 			System.out.println(cou + " " + asf);
 			return;
 		}
-
 		if (cell_no > board.length * board.length) {
 			return;
 		}
-
 		nKnight(board, cq, cell_no + 1, asf);
 		int rno = (cell_no - 1) / board.length;
 		int cno = (cell_no - 1) % board.length;
@@ -34,18 +32,15 @@ public class NKnight {
 
 		int[][] check = { { 1, -2 }, { 2, -1 }, { 2, 1 }, { 1, 2 }, { -1, 2 }, { -2, 1 }, { -1, -2 }, { -2, -1 } };
 
-		for (int qr = 1; qr < board.length; qr++) {
-			for (int ch = 0; ch < check.length; ch++) {
+		for (int ch = 0; ch < check.length; ch++) {
 
-				int rc = row + qr * check[ch][0];
-				int cc = col + qr * check[ch][1];
+			int rc = row + check[ch][0];
+			int cc = col + check[ch][1];
 
-				if (rc >= 0 && cc >= 0 && rc < board.length && cc < board[0].length) {
-					if (board[rc][cc] == true) {
-						return false;
-					}
+			if (rc >= 0 && cc >= 0 && rc < board.length && cc < board[0].length) {
+				if (board[rc][cc] == true) {
+					return false;
 				}
-
 			}
 		}
 		return true;
