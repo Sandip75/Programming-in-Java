@@ -16,8 +16,20 @@
    [Is Array mirror-inverse](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/IsArrayMirrorInverse.java)<br />
    [Rotate an array](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/RotateAnArray.java)<br />
    [Kadane's algorithm](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/KadanesAlgorithm.java)<br />
-   [Matrix Multiplication]()<br />
-   [Wave Display]()<br />
-   [Spiral Display]()<br />
+   [Matrix Multiplication](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/MatrixMultiplication.java)<br />
+   [Wave Display](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/WaveDisplay.java)<br />
+   [Spiral Display](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/SprialDisplay.java)<br />
    [Exit Point]()<br />
    [90 degree rotate]()<br />
+
+### [String](https://github.com/Sandip75/Programming-in-Java/tree/master/coreJava/string)<br />
+   [Print Characters](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/PrintCharacter.java)<br />
+   [Print Substrings](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/PrintSubstring.java)<br />
+   [IsPalindrome](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/IsPalindrome.java)<br />
+   [Print Palindromic susbtrings](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/PrintPalindromeSubstring.java)<br />
+   [Toggle Characters](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ToggleCharacters.java)<br />
+   [Modify a string](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ModifyString.java)<br /><br />
+   [Modify a string2](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ModifyEvenPandOddM.java)<br />
+   [Print subsequence]()<br />
+   [Compress a string]()<br />
+   
