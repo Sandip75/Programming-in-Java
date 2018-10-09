@@ -27,9 +27,9 @@
    [Print Characters](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/PrintCharacter.java)<br />
    [Print Substrings](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/PrintSubstring.java)<br />
    [IsPalindrome](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/IsPalindrome.java)<br />
-   [Print Palindromic susbtrings]()<br />
+   [Print Palindromic susbtrings](https://goo.gl/aVnBJU)<br />
    [Toggle Characters](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ToggleCharacters.java)<br />
-   [Modify a string](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ModifyString.java)<br /><br />
+   [Modify a string](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ModifyString.java)<br />
    [Modify a string2](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ModifyEvenPandOddM.java)<br />
    [Print subsequence]()<br />
    [Compress a string]()<br />
