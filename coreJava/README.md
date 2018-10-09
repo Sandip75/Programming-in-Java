@@ -36,7 +36,7 @@
    
 ### [Recursion]()<br/><br/>
 
-###[Recursion basics and motion in recursion]()<br/>
+### [Recursion basics]()<br/>
    [Print Decreasing]()
    [Print Increasing]()
    [Print Decreasing Increasing]()
@@ -44,7 +44,7 @@
    [Power]()
    [Tower of Hanoi]()<br/><br/>
    
-###[Recursion with arrays]()<br/>
+### [Recursion with arrays]()<br/>
    [Display Array]()<br/>
    [Dislay Array in Reverse]()<br/>
    [Find largest element in an array]()<br/>
@@ -53,35 +53,35 @@
    [Find last index where an element occurs in an array]()<br/>
    [Find all indices where an element occurs in an array]()<br/><br/>
    
-###[Recursion with arraylists]()<br/>
+### [Recursion with arraylists]()<br/>
    [Get Subsequences]()<br/>
    [Get Subsequence with ascii]()<br/>
    [Get Keypad combinations]()<br/><br/>
   
-###[Recursion in board games]()<br/>
+### [Recursion in board games]()<br/>
    [Paths in a board game]()<br/>
    [Paths in a board game - opening with 1 and 6 on dice]()<br/>
    [Paths in a board game with ladders]()<br/>
    [Paths in a board game with snakes and ladders]()<br/><br/>
 
-###[Recursion in maze games]()<br/>
+### [Recursion in maze games]()<br/>
    [Paths in a maze]()<br/>
    [Paths in a maze - diagonal move allowed]()<br/>
    [Paths in a maze - multistep moves allowed]()<br/>
    [Find any path in a maze - all direction moves allowed]()<br/>
    [Find all paths in a maze - all direction moves allowed]()<br/><br/>
    
-###[Recursion in permuations and combinations
+### [Recursion in permuations and combinations]()<br/>
    [Permutations of item in boxes]()<br/>
    [Combinations of item in boxes]()<br/>
    [NQueens]()<br/>
    [NKnights]()<br/><br/>
 
-###[Recursion and memory]()<br/>
+### [Recursion and memory]()<br/>
    [Print Subset with items summing to a target ]()<br/>
    [Print pair of subsets with equal sum]()<br/><br/>
    
-###[Recursion Question]()<br/>
+### [Recursion Question]()<br/>
    [CrossWord]()<br/>
    [Sudoku]()<br/>
    
