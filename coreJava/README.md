@@ -27,61 +27,61 @@
    [Print Characters](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/PrintCharacter.java)<br />
    [Print Substrings](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/PrintSubstring.java)<br />
    [IsPalindrome](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/IsPalindrome.java)<br />
-   [Print Palindromic susbtrings](https://github.com/Sandip75/Programming-in-                                          Java/blob/master/coreJava/string/PrintPalindromeSubstring.java)<br />
+   [Print Palindromic susbtrings]()<br />
    [Toggle Characters](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ToggleCharacters.java)<br />
    [Modify a string](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ModifyString.java)<br /><br />
    [Modify a string2](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/string/ModifyEvenPandOddM.java)<br />
    [Print subsequence]()<br />
    [Compress a string]()<br />
    
-### [Recursion]()<br/><br/>
+### [Recursion]()<br/>
 
-### [Recursion basics]()<br/>
-   [Print Decreasing]()
-   [Print Increasing]()
-   [Print Decreasing Increasing]()
-   [Factorial]()
-   [Power]()
-   [Tower of Hanoi]()<br/><br/>
+### [Recursion basics]()
+   [Print Decreasing]()<br/>
+   [Print Increasing]()<br/>
+   [Print Decreasing Increasing]()<br/>
+   [Factorial]()<br/>
+   [Power]()<br/>
+   [Tower of Hanoi]()<br/>
    
-### [Recursion with arrays]()<br/>
+### [Recursion with arrays]()
    [Display Array]()<br/>
    [Dislay Array in Reverse]()<br/>
    [Find largest element in an array]()<br/>
    [Find whether an element occurs in an array or not]()<br/>
    [Find first index where an element occurs in an array]()<br/>
    [Find last index where an element occurs in an array]()<br/>
-   [Find all indices where an element occurs in an array]()<br/><br/>
+   [Find all indices where an element occurs in an array]()<br/>
    
-### [Recursion with arraylists]()<br/>
+### [Recursion with arraylists]()
    [Get Subsequences]()<br/>
    [Get Subsequence with ascii]()<br/>
-   [Get Keypad combinations]()<br/><br/>
+   [Get Keypad combinations]()<br/>
   
-### [Recursion in board games]()<br/>
+### [Recursion in board games]()
    [Paths in a board game]()<br/>
    [Paths in a board game - opening with 1 and 6 on dice]()<br/>
    [Paths in a board game with ladders]()<br/>
-   [Paths in a board game with snakes and ladders]()<br/><br/>
+   [Paths in a board game with snakes and ladders]()<br/>
 
-### [Recursion in maze games]()<br/>
+### [Recursion in maze games]()
    [Paths in a maze]()<br/>
    [Paths in a maze - diagonal move allowed]()<br/>
    [Paths in a maze - multistep moves allowed]()<br/>
    [Find any path in a maze - all direction moves allowed]()<br/>
-   [Find all paths in a maze - all direction moves allowed]()<br/><br/>
+   [Find all paths in a maze - all direction moves allowed]()<br/>
    
-### [Recursion in permuations and combinations]()<br/>
+### [Recursion in permuations and combinations]()
    [Permutations of item in boxes]()<br/>
    [Combinations of item in boxes]()<br/>
    [NQueens]()<br/>
-   [NKnights]()<br/><br/>
+   [NKnights]()<br/>
 
-### [Recursion and memory]()<br/>
+### [Recursion and memory]()
    [Print Subset with items summing to a target ]()<br/>
-   [Print pair of subsets with equal sum]()<br/><br/>
+   [Print pair of subsets with equal sum]()<br/>
    
-### [Recursion Question]()<br/>
+### [Recursion Question]()
    [CrossWord]()<br/>
    [Sudoku]()<br/>
    
