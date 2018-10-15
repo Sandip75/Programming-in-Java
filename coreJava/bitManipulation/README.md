@@ -1,16 +1,16 @@
 ## Bit Manipulation
-   ### Is Kth Bit ON or OFF <br/>
+### 1 Is Kth Bit ON or OFF <br/>
    You are give two input N and K. N is an integer number you need to check Kth bit is ON or OFF 
-   ### Input
+   Input
         Enter a number N 
         Enter the value of K 
-   ### Output
+   Output
         "ON" or "OFF"
 
-   ### Sample input 1 
+   Sample input 1 
          75
          4
-   ### Sample Output 1
+   Sample Output 1
          OFF
    
    
