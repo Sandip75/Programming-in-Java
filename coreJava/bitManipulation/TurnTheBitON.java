@@ -3,7 +3,7 @@ package coreJava.bitManipulation;
 public class TurnTheBitON {
 
 	public static void main(String[] args) {
-		int n = 57;
+		int n = 75;
 		int k = 2;
 		System.out.println(Integer.toBinaryString(n));
 		int ans = turnTheBitON(n, k);

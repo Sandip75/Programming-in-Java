@@ -3,7 +3,7 @@ package coreJava.bitManipulation;
 public class ToggleTheBit {
 
 	public static void main(String[] args) {
-		int n = 57;
+		int n = 75;
 		int k = 4;
 		System.out.println(Integer.toBinaryString(n));
 		int ans = toggleTheBit(n, k);

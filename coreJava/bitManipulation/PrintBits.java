@@ -3,7 +3,7 @@ package coreJava.bitManipulation;
 public class PrintBits {
 
 	public static void main(String[] args) {
-		int n = 57;
+		int n = 75;
 		System.out.println(Integer.toBinaryString(n));
 		printBit(n);
 	}
