@@ -110,7 +110,7 @@
         print other unique number
 
 ### Sample input 1 
-         8
+         6
          [ 3 , 17 ,88 , 11 , 17  ,88 ]
 ### Sample Output 1
          3
@@ -131,5 +131,25 @@
          [ 3 , 7 ,9 , 3 , 9 ,3 ,9 ]
 ### Sample Output 1
          7
-   <br/><br/>   
+   <br/><br/> 
+   
+## 10) Subsequences <br/>
+   Write a function that prints all its subsequences. 
+### Input
+        Enter a String S
+### Output
+        print all possible output 
+
+### Sample input 1 
+         abc
+### Sample Output 1
+         
+         c
+         b
+         bc
+         a
+         ac
+         ab
+         abc
+   <br/><br/> 
    
