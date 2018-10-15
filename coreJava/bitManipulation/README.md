@@ -59,7 +59,7 @@
    <br/><br/>
    
 ## 5) Print bits <br/>
-   You are give two input N. N is an integer number you need to print in bits. 
+   You are give input N. N is an integer number you need to print in bits. 
 ### Input
         Enter a number N 
 ### Output
@@ -72,7 +72,7 @@
    <br/><br/>
    
 ## 6) Turn the bit ON <br/>
-   You are give two input N. N is an integer number you need to count number of one's bit in N. 
+   You are give input N. N is an integer number you need to count number of one's bit in N. 
 ### Input
         Enter a number N 
 ### Output
@@ -85,4 +85,51 @@
    <br/><br/>
    
    
+## 7) Find unique number in array <br/>
+   You are give an array of N size where N is odd number. All number are duplicate in an array except one number. You need to find that number 
+### Input
+        Enter a number N 
+        There will be N numbers, ith number in the line is denoted by A[i]
+### Output
+        return unique number 
+
+### Sample input 1 
+         7
+         [ 3 , 7 ,9 , 11 , 7 ,3 ,9 ]
+### Sample Output 1
+         11
+   <br/><br/>   
+   
+## 8) Find two unique number in array <br/>
+   You are give an array of N size where N is even number. All number are duplicate in an array except two number. You need to find that number 
+### Input
+        Enter a number N 
+        There will be N numbers, ith number in the line is denoted by A[i]
+### Output
+        print first unique number 
+        print other unique number
+
+### Sample input 1 
+         8
+         [ 3 , 17 ,88 , 11 , 17  ,88 ]
+### Sample Output 1
+         3
+         11
+   <br/><br/>   
+   
+   
+## 9) Find unique number in array <br/>
+   You are give an array of N size where N is number. All number are thrice in an array except one number. You need to find that number 
+### Input
+        Enter a number N 
+        There will be N numbers, ith number in the line is denoted by A[i]
+### Output
+        return unique number 
+
+### Sample input 1 
+         7
+         [ 3 , 7 ,9 , 3 , 9 ,3 ,9 ]
+### Sample Output 1
+         7
+   <br/><br/>   
    
