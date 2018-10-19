@@ -56,8 +56,6 @@ public class MatrixChainMultiplication {
 				}
 			}
 		}
-
 		return ans[0][arr.length - 1];
 	}
-
 }

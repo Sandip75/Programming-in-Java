@@ -3,21 +3,30 @@ package coreJava.bitManipulation;
 public class IsKthBitONorOFF {
 
 	public static void main(String[] args) {
-		int n = 75;
+		int n = 25;
 		int k = 4;
-		System.out.println(Integer.toBinaryString(n));
+		// System.out.println(Integer.toBinaryString(n));
 		isKthBitONorOFF(n, k);
-
 	}
 
 	public static void isKthBitONorOFF(int n, int k) {
-		int mask = 1 << k;
 
-		if ((mask & n) == 0) {
-			System.out.println("OFF");
-		} else {
+		int mask = (1 << k);
+
+		if ((n & mask) == mask) {
 			System.out.println("ON");
+		} else {
+			System.out.println("OFF");
 		}
+
 	}
 
 }
+11001 
+
+
+k = 0 === >>> 11001 
+k = 1 === >>> 11011 
+k = 2 === >>> 11101 
+k = 3 === >>> 11001
+k = 4 === >>> 11001

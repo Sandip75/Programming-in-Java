@@ -12,10 +12,9 @@ public class TurnTheBitOFF {
 	}
 
 	public static int turnTheBitOFF(int n, int k) {
-		int mask = (1 << k);
-		System.out.println(Integer.toBinaryString(mask));
-		n = n & (~mask);
-		return n;
+		int mask = ( 1 << k ) ; 
+		n =  n & (~ mask );
+		return 1;
 	}
 
 }
