@@ -11,7 +11,9 @@
          4
 ### Sample Output 1
          OFF
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/IsKthBitONorOFF.java)
    <br/><br/>
+   
    
 ## 2) Turn the bit ON <br/>
    You are give two input N and K. N is an integer number you need to set Kth bit.
@@ -26,6 +28,7 @@
          2
 ### Sample Output 1
          79
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/TurnTheBitON.java)
    <br/><br/>
    
 ## 3) Turn the bit OFF <br/>
@@ -41,6 +44,7 @@
          3
 ### Sample Output 1
          67
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/TurnTheBitOFF.java)
    <br/><br/>
    
 ## 4) Toggle the bit <br/>
@@ -56,6 +60,7 @@
          4
 ### Sample Output 1
          91
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/ToggleTheBit.java)
    <br/><br/>
    
 ## 5) Print bits <br/>
@@ -69,9 +74,10 @@
          75
 ### Sample Output 1
          00000000000000000000000001001011
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/PrintBits.java)
    <br/><br/>
    
-## 6) Turn the bit ON <br/>
+## 6) Count No. of One's <br/>
    You are give input N. N is an integer number you need to count number of one's bit in N. 
 ### Input
         Enter a number N 
@@ -82,7 +88,8 @@
          75
 ### Sample Output 1
          4
-   <br/><br/>
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/CountOne.java)
+  <br/><br/>
    
    
 ## 7) Find unique number in array <br/>
@@ -98,6 +105,7 @@
          [ 3 , 7 ,9 , 11 , 7 ,3 ,9 ]
 ### Sample Output 1
          11
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/UniqueNumber.java)
    <br/><br/>   
    
 ## 8) Find two unique number in array <br/>
@@ -115,6 +123,7 @@
 ### Sample Output 1
          3
          11
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/UniqueNumberTwo.java)
    <br/><br/>   
    
    
@@ -131,6 +140,7 @@
          [ 3 , 7 ,9 , 3 , 9 ,3 ,9 ]
 ### Sample Output 1
          7
+   ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/bitManipulation/UniqueNumberTwo.java)
    <br/><br/> 
    
 ## 10) Subsequences <br/>
@@ -151,6 +161,7 @@
          ac
          ab
          abc
-   <br/><br/> 
+ ### [Solution]()
+<br/><br/> 
    
 ## 11) Sudoku using bit <br/>
