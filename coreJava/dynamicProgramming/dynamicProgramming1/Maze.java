@@ -1,4 +1,4 @@
-package coreJava.dynamicProgramming;
+package coreJava.dynamicProgramming.dynamicProgramming1;
 
 public class Maze {
 

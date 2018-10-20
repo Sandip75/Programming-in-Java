@@ -1,4 +1,4 @@
-package coreJava.dynamicProgramming2;
+package coreJava.dynamicProgramming.dynamicProgramming2;
 
 public class MatrixChainMultiplication {
 

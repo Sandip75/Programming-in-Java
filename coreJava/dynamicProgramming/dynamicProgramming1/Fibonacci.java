@@ -1,13 +1,17 @@
-package coreJava.dynamicProgramming;
+package coreJava.dynamicProgramming.dynamicProgramming1;
 
 public class Fibonacci {
 
 	public static void main(String[] args) {
 		int n = 10;
-		int ans = fibonacciMemoizatation(n, new int[n + 1]);
-		System.out.println(ans);
-		int ans1 = fibonacciTabulation(n);
-		System.out.println(ans1);
+		int ansM = fibonacciMemoizatation(n, new int[n + 1]);
+		System.out.println(ansM);
+
+		int ansT = fibonacciTabulation(n);
+		System.out.println(ansT);
+
+		int ansS = fibonacciSilder(n);
+		System.out.println(ansS);
 
 	}
 
@@ -38,5 +42,20 @@ public class Fibonacci {
 		}
 
 		return m[n];
+	}
+
+	public static int fibonacciSilder(int n) {
+		int[] s = new int[2];
+
+		s[0] = 0;
+		s[1] = 1;
+
+		for (int nos = 1; nos <= n; nos++) {
+			int nf = s[0] + s[1];
+			s[0] = s[1];
+			s[1] = nf;
+		}
+
+		return s[0];
 	}
 }
