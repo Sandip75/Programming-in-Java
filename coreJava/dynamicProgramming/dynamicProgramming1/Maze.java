@@ -19,8 +19,6 @@ public class Maze {
 				}
 			}
 		}
-
 		return ans[0][0];
 	}
-
 }
