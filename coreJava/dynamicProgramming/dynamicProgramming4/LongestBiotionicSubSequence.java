@@ -29,7 +29,6 @@ public class LongestBiotionicSubSequence {
 					anslds[i] = Math.max(anslds[i], anslds[j] + 1);
 				}
 			}
-
 		}
 
 		int max = Integer.MIN_VALUE;
@@ -39,8 +38,6 @@ public class LongestBiotionicSubSequence {
 				max = anslis[i];
 			}
 		}
-
 		return max;
 	}
-
 }
