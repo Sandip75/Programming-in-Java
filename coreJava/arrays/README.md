@@ -105,60 +105,66 @@
    
    
 ## 8) Inverse of an array <br/>
-   You are give an array of size N. N is an integer number you need to sort given array. 
+   You are give an array of size N. N is an integer number you need to Inverse given array. 
 ### Input
         Enter an array 
 ### Output
         return an array number
 
 ### Sample input 1 
-         [ 3 , 7 , 1 , 6 , 4 ]
+         [ 3 , 0 , 1 , 4 , 2 ]
 ### Sample Output 1
-         [ 1 , 3 , 4 , 6 , 7 ]
+         [ 1 , 2 , 4 , 0 , 3 ]
+   <br/>
+         Index zero has three value So we will store zero at index three <br/>
+         Index one has zero value So we will store one at index zero and So on...
+   
    ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/InverseArray.java)
    <br/><br/>
  
       
 ## 9) Is Array mirror-inverse <br/>
-   You are give an array of size N. N is an integer number you need to sort given array. 
+   You are give an array of size N. N is an integer number you need to check Inverse is possible or not. ( same as above question) 
 ### Input
         Enter an array 
 ### Output
-        return an array number
+        Yes or NO
 
 ### Sample input 1 
-         [ 3 , 7 , 1 , 6 , 4 ]
+         [ 3 , 0 , 1 , 4 , 2 ]
 ### Sample Output 1
-         [ 1 , 3 , 4 , 6 , 7 ]
+         Yes
    ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/IsArrayMirrorInverse.java)
    <br/><br/>
       
 ## 10) Rotate an array <br/>
-   You are give an array of size N. N is an integer number you need to sort given array. 
+   You are give an array of size N and K value. N and k  is an integer number you need to do left rotation K times. 
 ### Input
         Enter an array 
+        Enter value of k 
 ### Output
         return an array number
 
 ### Sample input 1 
          [ 3 , 7 , 1 , 6 , 4 ]
+         3
 ### Sample Output 1
-         [ 1 , 3 , 4 , 6 , 7 ]
+         [ 1 , 6 , 4 , 3 , 7 ]
    ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/RotateAnArray.java)
    <br/><br/>
 
       
 ## 2) Kadane's algorithm <br/>
-   You are give an array of size N. N is an integer number you need to sort given array. 
+   You are give an array of size N. N is an integer number you need to find subarray with maximum value in given array. 
 ### Input
         Enter an array 
 ### Output
-        return an array number
+        return a number
 
 ### Sample input 1 
-         [ 3 , 7 , 1 , 6 , 4 ]
+         [ 2 , 3 , -6 , 1 , 2 , 3 , -4 , 5 ]
 ### Sample Output 1
-         [ 1 , 3 , 4 , 6 , 7 ]
+         7
    ### [Solution](https://github.com/Sandip75/Programming-in-Java/blob/master/coreJava/arrays/KadanesAlgorithm.java)
    <br/><br/>
   
