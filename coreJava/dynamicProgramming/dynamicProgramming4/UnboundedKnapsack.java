@@ -25,5 +25,4 @@ public class UnboundedKnapsack {
 		}
 		return max;
 	}
-
 }

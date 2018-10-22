@@ -1,4 +1,4 @@
-package coreJava.arrays;
+package coreJava.arrays.twoD;
 
 public class MatrixMultiplication {
 

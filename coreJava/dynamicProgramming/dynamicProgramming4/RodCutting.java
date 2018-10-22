@@ -22,8 +22,6 @@ public class RodCutting {
 				right--;
 			}
 		}
-
 		return ans[target];
 	}
-
 }

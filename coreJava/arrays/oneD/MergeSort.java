@@ -1,4 +1,4 @@
-package coreJava.arrays;
+package coreJava.arrays.oneD;
 
 public class MergeSort {
 
