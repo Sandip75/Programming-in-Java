@@ -21,11 +21,11 @@ public class LinkedListG {
 
 	public void addLast(int data) {
 		// when list is empty
-		if(this.size == 0){
+		if (this.size == 0) {
 			this.handleAddWhenSize0(data);
 			return;
 		}
-		
+
 		// create
 		Node node = new Node();
 
@@ -43,13 +43,20 @@ public class LinkedListG {
 
 	private void handleAddWhenSize0(int data) {
 		Node node = new Node();
-		
+
 		node.data = data;
-		node.next = null ;
-		
-		this.head = this.tail = node ;
+		node.next = null;
+
+		this.head = this.tail = node;
 		this.size++;
 	}
-	
-	
+
+	public void display() {
+		Node temp = this.head;
+		while (temp != null) {
+			System.out.print(temp.data + " -->> ");
+			temp = temp.next;
+		}
+	}
+
 }
