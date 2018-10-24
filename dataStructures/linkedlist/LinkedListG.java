@@ -57,6 +57,41 @@ public class LinkedListG {
 			System.out.print(temp.data + " -->> ");
 			temp = temp.next;
 		}
+		System.out.println();
+	}
+
+	public void addFirst(int data) {
+		if(this.size == 0 ){
+			this.handleAddWhenSize0(data);
+			return;
+		}
+		
+		// create 
+		Node node = new Node();
+		
+		//set properties 
+		node.data = data ;
+		node.next = this.head;
+		
+		//attach
+		
+		//summary update
+		this.head = node ;
+		this.size++;
+	}
+	
+	public int getFirst() throws Exception{
+		if(this.size == 0 ){
+			throw new Exception("Size is empty");
+		}
+		return head.data;
+	}
+	
+	public int getLast() throws Exception{
+		if(this.size == 0 ){
+			throw new Exception("Size is empty");
+		}
+		return tail.data;
 	}
 
 }
