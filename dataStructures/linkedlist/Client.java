@@ -11,14 +11,14 @@ public class Client {
 		ll.addLast(40);
 		ll.addLast(50);
 		ll.display();
-		
+
 		ll.addFirst(5);
 		ll.display();
-		
+
 		System.out.println(ll.getFirst());
 		System.out.println(ll.getLast());
-		
-		
+		System.out.println(ll.getAt(4));
+
 	}
 
 }

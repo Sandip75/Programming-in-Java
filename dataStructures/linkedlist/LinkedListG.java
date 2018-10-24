@@ -93,5 +93,19 @@ public class LinkedListG {
 		}
 		return tail.data;
 	}
+	
+	public int getAt(int idx) throws Exception{
+		if(this.size == 0 ){
+			throw new Exception("Size is empty");
+		}else if(idx < 0 || idx >= this.size){
+			throw new Exception("Index out of Bound");
+		}
+		
+		Node node = head;
+		for(int i=0; i < idx ; i++){
+			node = node.next;
+		}
+		return node.data;
+	}
 
 }
