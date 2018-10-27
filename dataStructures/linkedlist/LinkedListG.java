@@ -139,6 +139,66 @@ public class LinkedListG {
 
 			nodeBefore.next = node;
 			node.next = nodeafter;
+
+			this.size++;
 		}
 	}
+
+	public int removeFirst() throws Exception {
+		if (this.size == 0) {
+			throw new Exception("Size is empty");
+		} else if (this.size == 1) {
+			this.size--;
+			this.head = this.tail = null;
+		}
+
+		int temp = head.data;
+
+		Node second = head.next;
+		head = second;
+		this.size--;
+		return temp;
+	}
+
+	public int removeLast() throws Exception {
+		if (this.size == 0) {
+			throw new Exception("Size is empty");
+		} else if (this.size == 1) {
+			this.size--;
+			this.head = this.tail = null;
+		}
+
+		int temp = tail.data;
+
+		Node secondlast = this.getNode(this.size - 2);
+		tail = secondlast;
+		tail.next = null;
+		this.size--;
+
+		return temp;
+	}
+
+	public int removeAt(int idx) throws Exception {
+		if (this.size == 0) {
+			throw new Exception("Size is empty");
+		} else if (idx < 0 || idx >= this.size) {
+			throw new Exception("Index out of Bound");
+		} else if (idx == 0) {
+			return this.removeFirst();
+		} else if (idx == this.size - 1) {
+			return this.removeLast();
+		} else {
+
+			Node nodeBefore = this.getNode(idx - 1);
+			Node node = nodeBefore.next;
+			Node nodeAfter = node.next;
+
+			nodeBefore.next = nodeAfter;
+			this.size--;
+
+			return node.data;
+
+		}
+	}
+
 }
