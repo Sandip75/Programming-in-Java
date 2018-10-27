@@ -107,5 +107,4 @@ public class LinkedListG {
 		}
 		return node.data;
 	}
-
 }
