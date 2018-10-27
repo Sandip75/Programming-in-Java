@@ -61,50 +61,84 @@ public class LinkedListG {
 	}
 
 	public void addFirst(int data) {
-		if(this.size == 0 ){
+		if (this.size == 0) {
 			this.handleAddWhenSize0(data);
 			return;
 		}
-		
-		// create 
+
+		// create
 		Node node = new Node();
-		
-		//set properties 
-		node.data = data ;
+
+		// set properties
+		node.data = data;
 		node.next = this.head;
-		
-		//attach
-		
-		//summary update
-		this.head = node ;
+
+		// attach
+
+		// summary update
+		this.head = node;
 		this.size++;
 	}
-	
-	public int getFirst() throws Exception{
-		if(this.size == 0 ){
+
+	public int getFirst() throws Exception {
+		if (this.size == 0) {
 			throw new Exception("Size is empty");
 		}
 		return head.data;
 	}
-	
-	public int getLast() throws Exception{
-		if(this.size == 0 ){
+
+	public int getLast() throws Exception {
+		if (this.size == 0) {
 			throw new Exception("Size is empty");
 		}
 		return tail.data;
 	}
-	
-	public int getAt(int idx) throws Exception{
-		if(this.size == 0 ){
+
+	public int getAt(int idx) throws Exception {
+		if (this.size == 0) {
 			throw new Exception("Size is empty");
-		}else if(idx < 0 || idx >= this.size){
+		} else if (idx < 0 || idx >= this.size) {
 			throw new Exception("Index out of Bound");
 		}
-		
+
 		Node node = head;
-		for(int i=0; i < idx ; i++){
+		for (int i = 0; i < idx; i++) {
 			node = node.next;
 		}
 		return node.data;
+	}
+
+	private Node getNode(int idx) throws Exception {
+		if (this.size == 0) {
+			throw new Exception("Size is empty");
+		} else if (idx < 0 || idx >= this.size) {
+			throw new Exception("Index out of Bound");
+		}
+
+		Node node = head;
+		for (int i = 0; i < idx; i++) {
+			node = node.next;
+		}
+		return node;
+	}
+
+	public void addAt(int data, int idx) throws Exception {
+		if (idx < 0 || idx > this.size) {
+			throw new Exception("Index out of Bound");
+		} else if (idx == 0) {
+			addFirst(data);
+		} else if (idx == this.size) {
+			addLast(data);
+		} else {
+
+			Node nodeBefore = this.getNode(idx - 1);
+			Node nodeafter = nodeBefore.next;
+
+			Node node = new Node();
+			node.data = data;
+
+			nodeBefore.next = node;
+			node.next = nodeafter;
+		}
 	}
 }

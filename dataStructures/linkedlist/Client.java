@@ -19,6 +19,9 @@ public class Client {
 		System.out.println(ll.getLast());
 		System.out.println(ll.getAt(4));
 
+		ll.addAt(35, 4);
+		ll.display();
+
 	}
 
 }
