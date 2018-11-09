@@ -12,21 +12,25 @@ public class Client {
 		ll.addLast(50);
 		ll.display();
 
-		ll.addFirst(5);
-		ll.display();
+		// ll.addFirst(5);
+		// ll.display();
+		//
+		// System.out.println(ll.getFirst());
+		// System.out.println(ll.getLast());
+		// System.out.println(ll.getAt(4));
+		//
+		// ll.addAt(35, 4);
+		// ll.display();
+		//
+		// System.out.println(ll.removeFirst());
+		// ll.display();
+		// System.out.println(ll.removeLast());
+		// ll.display();
+		// System.out.println(ll.removeAt(3));
+		// ll.display();
 
-		System.out.println(ll.getFirst());
-		System.out.println(ll.getLast());
-		System.out.println(ll.getAt(4));
-
-		ll.addAt(35, 4);
-		ll.display();
-
-		System.out.println(ll.removeFirst());
-		ll.display();
-		System.out.println(ll.removeLast());
-		ll.display();
-
+		
+		
 	}
 
 }
