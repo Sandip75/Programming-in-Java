@@ -12,11 +12,12 @@ public class IsKthBitONorOFF {
 	public static void isKthBitONorOFF(int n, int k) {
 
 		int mask = (1 << k);
+		System.out.println(Integer.toBinaryString(mask));
 
 		if ((n & mask) == mask) {
-			System.out.println("ON");
+		//	System.out.println("ON");
 		} else {
-			System.out.println("OFF");
+			//System.out.println("OFF");
 		}
 
 	}

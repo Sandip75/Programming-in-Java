@@ -11,10 +11,10 @@ public class PrintBits {
 	public static void printBit(int n) {
 		for (int i = 31; i >= 0; i--) {
 			int mask = (1 << i);
-			if ((mask & n) == 0) {
-				System.out.print(0);
-			} else {
+			if ((mask & n) == mask) {
 				System.out.print(1);
+			} else {
+				System.out.print(0);
 			}
 		}
 	}

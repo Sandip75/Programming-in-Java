@@ -6,17 +6,49 @@ public class RepeatAndMissingNumberArray {
 
 	public static void main(String[] args) {
 
+		/*
+		 * List<Integer> l = new ArrayList<>(); l.add(1); l.add(1); l.add(2);
+		 * l.add(5);
+		 */// l.add(1);
+			// l = repeatedNumber(l);
+		// for (int val : l) {
+		// System.out.print(val + " ");
+		// }
+
 		List<Integer> l = new ArrayList<>();
 		l.add(1);
-		l.add(1);
+		l.add(3);
 		l.add(2);
-		l.add(5);
-		l.add(1);
-		l = repeatedNumber(l);
-		for (int val : l) {
-			System.out.print(val + "  ");
+		int ans = solve(l);
+		System.out.println(ans);
+
+	}
+
+	public static int solve(List<Integer> A) {
+
+		int count = 0;
+		for (int val : A) {
+			boolean flag = checkPrime(val);
+			if (flag == true) {
+				count += 1;
+			}
 		}
 
+		int ans = (int) Math.pow(2, count);
+		ans = ans - 1;
+		return 1;
+
+	}
+
+	public static boolean checkPrime(int a) {
+		int i = 2;
+		while ((i * i) <= a) {
+			if ((a % i) == 0) {
+				return false;
+			}
+			i++;
+		}
+		return true;
 	}
 
 	public static ArrayList<Integer> repeatedNumber(final List<Integer> A) {

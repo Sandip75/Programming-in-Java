@@ -3,9 +3,9 @@ package coreJava.recursion.StartRecursion;
 public class TowerOfHanoi {
 
 	public static void main(String[] args) {
-		// toh("S", "D", "H", 3);
-		int ans = tohCount("S", "D", "H", 3);
-		System.out.println(ans);
+		 toh("S", "D", "H", 3);
+		//int ans = tohCount("S", "D", "H", 3);
+		//System.out.println(ans);
 	}
 
 	public static void toh(String src, String des, String help, int n) {
