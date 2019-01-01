@@ -3,10 +3,10 @@ package coreJava.recursion.Array;
 public class AllIndex {
 
 	public static void main(String[] args) {
-		int arr[] = { 5, 44, 9, 44, 1, 44, 18, 44, 7 };
+		int arr[] = { 5, 44, 44, 1, 44, 18, 44 };
 		int ans[] = allIndex(arr, 44, 0, 0);
 		for (int val : ans) {
-			System.out.print(val + "  ");
+			System.out.print(val + "-->>");
 		}
 	}
 

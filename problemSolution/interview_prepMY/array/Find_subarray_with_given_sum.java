@@ -6,7 +6,7 @@ public class Find_subarray_with_given_sum {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 4, 20, 3, 10, 5 };
-		int target = 5;
+		int target = 18;
 		sum(arr, target);
 		sumBetter(arr, target);
 	}
@@ -45,8 +45,20 @@ public class Find_subarray_with_given_sum {
 				break;
 			}
 		}
-		
-		while(t)
+
+		while (traverse != ans.length) {
+			for (int i = 0; i < traverse; i++) {
+				int diff = ans[traverse] - ans[i];
+				if (diff == target) {
+					System.out.println(i+1 + "  " + traverse);
+					return;
+				} else if (diff < target) {
+					break;
+				}
+			}
+			traverse++;
+		}
+		System.out.println("NO subarray found");
 	}
 
 }
